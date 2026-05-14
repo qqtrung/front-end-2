@@ -1,0 +1,60 @@
+.user-detail {
+  padding: 32px;
+  max-width: 700px;
+  margin: 20px auto;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  color: white;
+}
+
+.user-detail-name {
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 2.2rem;
+  text-align: center;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #ffffff, #f0f8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.user-detail-info {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.user-detail-label {
+  font-weight: 700;
+  color: #e8f4f8;
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+}
+
+.user-detail-button {
+  margin-top: 32px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(255,107,107,0.3);
+}
+
+.user-detail-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(255,107,107,0.4);
+  background: linear-gradient(45deg, #ee5a24, #ff6b6b);
+}

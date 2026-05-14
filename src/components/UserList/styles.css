@@ -1,0 +1,44 @@
+.user-list {
+  padding: 24px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  border-radius: 12px;
+  margin: 16px;
+}
+
+.user-list-title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-list-item {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+}
+
+.user-list-item:hover {
+  background: rgba(255,255,255,0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border-bottom: 2px solid #3498db;
+}
+
+.user-list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.user-list-item .MuiListItemText-primary {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,40 @@
+.topbar-appBar {
+  height: 70px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  padding: 0 32px;
+  backdrop-filter: blur(10px);
+}
+
+.topbar-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 0.5px;
+}
+
+.topbar-context {
+  color: #e8f4f8;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background: rgba(255,255,255,0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
+}
+
+.topbar-context:hover {
+  background: rgba(255,255,255,0.2);
+  transform: scale(1.05);
+}
