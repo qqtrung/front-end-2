@@ -5,7 +5,7 @@
  *
  */
 function fetchModel(url) {
-  return fetch(`https://x7cz3z-8081.csb.app/api${url}`)
+  return fetch(`http://localhost:8081/api${url}`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
