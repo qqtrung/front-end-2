@@ -8,7 +8,8 @@ import models from "../../modelData/models";
 /**
  * Define TopBar, a React component of Project 4.
  */
-function TopBar() {
+
+function TopBar({user}) {
   const location = useLocation();
   let contextText = "";
 
@@ -35,6 +36,10 @@ function TopBar() {
         <Typography variant="h6" className="topbar-context">
           {contextText}
         </Typography>
+
+        <Button >
+
+        </Button>
       </Toolbar>
     </AppBar>
   );
