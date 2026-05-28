@@ -36,10 +36,6 @@ function TopBar({user}) {
         <Typography variant="h6" className="topbar-context">
           {contextText}
         </Typography>
-
-        <Button >
-
-        </Button>
       </Toolbar>
     </AppBar>
   );
